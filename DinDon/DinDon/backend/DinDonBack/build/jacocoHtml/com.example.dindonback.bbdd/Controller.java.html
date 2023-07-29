@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Controller.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">DinDonBack</a> &gt; <a href="index.source.html" class="el_package">com.example.dindonback.bbdd</a> &gt; <span class="el_source">Controller.java</span></div><h1>Controller.java</h1><pre class="source lang-java linenums">package com.example.dindonback.bbdd;
+
+import com.example.dindonback.DTOs.Pisos;
+import com.example.dindonback.DTOs.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+
+@RestController
+@RequestMapping(&quot;/pisos&quot;)
+public class Controller {
+    private final RepositorioDePisos pisosRepository;
+    private final UserRepository userRepository;
+
+
+    @Autowired
+<span class="fc" id="L28">    public Controller(RepositorioDePisos pisosRepository, UserRepository userRepository) {</span>
+<span class="fc" id="L29">        this.pisosRepository = pisosRepository;</span>
+<span class="fc" id="L30">        this.userRepository = userRepository;</span>
+<span class="fc" id="L31">    }</span>
+
+    @GetMapping
+    public List&lt;Pisos&gt; getAllPisos() {
+<span class="fc" id="L35">        return pisosRepository.findAll();</span>
+    }
+
+    @GetMapping(&quot;/{id}&quot;)
+    public Pisos getPisoById(@PathVariable String id) {
+<span class="fc" id="L40">        return pisosRepository.findById(id).orElse(null);</span>
+    }
+
+    @GetMapping(&quot;/{id}/{imagen}&quot;)
+    public ResponseEntity&lt;byte[]&gt; getImagen(@PathVariable String id, @PathVariable String imagen) throws IOException {
+<span class="nc" id="L45">        String[] extensiones = {&quot;.png&quot;, &quot;.jpg&quot;, &quot;.jpeg&quot;};</span>
+<span class="nc" id="L46">        File file = null;</span>
+<span class="nc" id="L47">        String rutaBase = &quot;/Users/hugo/Documents/Cuarto/TFG/fotosPisos/&quot; + id + &quot;/&quot;;</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">        for (String extension : extensiones) {</span>
+<span class="nc" id="L49">            file = new File(rutaBase + imagen + extension);</span>
+<span class="nc bnc" id="L50" title="All 2 branches missed.">            if (file.exists()) {</span>
+<span class="nc" id="L51">                break;</span>
+            }
+        }
+<span class="nc" id="L54">        byte[] imagenBytes = FileUtils.readFileToByteArray(file);</span>
+<span class="nc" id="L55">        HttpHeaders headers = new HttpHeaders();</span>
+<span class="nc" id="L56">        headers.setContentType(MediaType.IMAGE_JPEG);</span>
+<span class="nc" id="L57">        headers.setContentLength(imagenBytes.length);</span>
+<span class="nc" id="L58">        return new ResponseEntity&lt;&gt;(imagenBytes, headers, HttpStatus.OK);</span>
+    }
+
+    @GetMapping(&quot;/propietario/{user}&quot;)
+    public String getUserById(@PathVariable String user) {
+<span class="fc" id="L63">        User usuario = userRepository.findById(user).orElse(null);</span>
+<span class="fc bfc" id="L64" title="All 2 branches covered.">        return usuario != null ? usuario.getNombre() : &quot;Usuario no encontrado&quot;;</span>
+    }
+
+    @GetMapping(&quot;/propietario/list/{user}&quot;)
+    public List&lt;Pisos&gt; getPisosByPropietario(@PathVariable String user) {
+<span class="fc" id="L69">        return pisosRepository.findByPropietario(user);</span>
+    }
+
+    @PostMapping
+    public Pisos addPiso(@RequestBody Pisos nuevoPiso) {
+<span class="fc" id="L74">        return pisosRepository.save(nuevoPiso);</span>
+    }
+
+    @PostMapping(&quot;/upload/{id}&quot;)
+    public ResponseEntity&lt;String&gt; uploadImage(@RequestBody List&lt;String&gt; images, @PathVariable String id) {
+<span class="nc" id="L79">        int name = 0;</span>
+<span class="nc bnc" id="L80" title="All 2 branches missed.">        for (String base64Image : images) {</span>
+<span class="nc" id="L81">            byte[] decodedBytes = org.apache.commons.codec.binary.Base64.decodeBase64(base64Image);</span>
+            try {
+                // Aquí elige la ubicación de la imagen en el servidor
+<span class="nc" id="L84">                Path directory = Paths.get(&quot;/Users/hugo/Documents/Cuarto/TFG/fotosPisos/&quot; + id);</span>
+<span class="nc bnc" id="L85" title="All 2 branches missed.">                if (!Files.exists(directory)) {</span>
+<span class="nc" id="L86">                    Files.createDirectories(directory);</span>
+                }
+<span class="nc" id="L88">                Path destinationFile = directory.resolve(name + &quot;.jpg&quot;);</span>
+<span class="nc" id="L89">                Files.write(destinationFile, decodedBytes);</span>
+<span class="nc" id="L90">                name++;</span>
+<span class="nc" id="L91">            } catch (IOException e) {</span>
+<span class="nc" id="L92">                return new ResponseEntity&lt;&gt;(&quot;Error al guardar imagen&quot;, HttpStatus.INTERNAL_SERVER_ERROR);</span>
+<span class="nc" id="L93">            }</span>
+<span class="nc" id="L94">        }</span>
+<span class="nc" id="L95">        return new ResponseEntity&lt;&gt;(&quot;Imagenes subidas con éxito&quot;, HttpStatus.OK);</span>
+    }
+
+    //PARA BORRAR UN PISO
+    @DeleteMapping(&quot;/{id}&quot;)
+    public void deletePiso(@PathVariable String id) {
+<span class="fc" id="L101">        pisosRepository.deleteById(id);</span>
+<span class="fc" id="L102">    }</span>
+
+    //editar un piso
+    @PutMapping(&quot;/edit/{id}&quot;)
+    public Pisos editPiso(@RequestBody Pisos nuevoPiso, @PathVariable String id) {
+<span class="fc" id="L107">        Pisos piso = pisosRepository.findById(id).orElse(null);</span>
+<span class="fc bfc" id="L108" title="All 2 branches covered.">        if (piso != null) {</span>
+<span class="fc" id="L109">            piso.setNombre(nuevoPiso.getNombre());</span>
+<span class="fc" id="L110">            piso.setPrecio(nuevoPiso.getPrecio());</span>
+<span class="fc" id="L111">            piso.setDescripcion(nuevoPiso.getDescripcion());</span>
+<span class="fc" id="L112">            piso.setDireccion(nuevoPiso.getDireccion());</span>
+<span class="fc" id="L113">            piso.setHabitaciones(nuevoPiso.getHabitaciones());</span>
+<span class="fc" id="L114">            piso.setBanos(nuevoPiso.getBanos());</span>
+<span class="fc" id="L115">            piso.setServiciosDisponibles(nuevoPiso.getServiciosDisponibles());</span>
+<span class="fc" id="L116">            piso.setLatitud(nuevoPiso.getLatitud());</span>
+<span class="fc" id="L117">            piso.setLongitud(nuevoPiso.getLongitud());</span>
+<span class="fc" id="L118">            return pisosRepository.save(piso);</span>
+        } else {
+<span class="fc" id="L120">            return null;</span>
+        }
+    }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_activity_preferences.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/activity_preferences.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_overlay_black.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/overlay_black.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_aceptar.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/aceptar.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_frase_up.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/frase_up.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_newpic.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/newpic.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_galicia.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/galicia.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_logo_background.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/logo_background.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_editar.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/editar.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/anim_slide_in_down.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/anim/slide_in_down.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_cruzar.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/cruzar.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_border_rounded.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/border_rounded.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout-v26_item_card.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout-v26/item_card.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_message_bg_sender.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/message_bg_sender.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_item_chat.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/item_chat.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/xml_backup_rules.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-mdpi_logo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-mdpi/logo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_item_peticion.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/item_peticion.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_custom_marker.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/custom_marker.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_linkedin_icon.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/linkedin_icon.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_fragment_chat.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_info.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/info.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/anim_slide_out_down.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xhdpi_logo_round.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xhdpi/logo_round.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_arrowdown.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/arrowdown.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btnperfil.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btnperfil.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/xml_network_security_config.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_ing.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/ing.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_ventana_modal_marcador.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/ventana_modal_marcador.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_go.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/go.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_main_discover.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/main_discover.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xxxhdpi_logo_round.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xxxhdpi/logo_round.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_perfil.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/perfil.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_fragment_perfil.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xxhdpi_logo_foreground.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xxhdpi/logo_foreground.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_pisos_summary.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/pisos_summary.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xxhdpi_logo_round.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xxhdpi/logo_round.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-hdpi_logo_round.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-hdpi/logo_round.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_menu_background.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/menu_background.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btnperfilselected.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btnperfilselected.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_activity_gustos.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/activity_gustos.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-mdpi_logo_round.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-mdpi/logo_round.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_din.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/din.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btnmapa.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btnmapa.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/anim_slide_in_up.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_language_selection_dialog.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/language_selection_dialog.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xxhdpi_logo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_add_piso.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/add_piso.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xxxhdpi_logo_foreground.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xxxhdpi/logo_foreground.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_price.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/price.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-anydpi-v26_logo.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-anydpi-v26/logo.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_receiver_message_item.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/receiver_message_item.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_activity_register.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_slide_layout.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/slide_layout.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_marcador.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/marcador.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btn_din.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btn_din.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_fragment_menu_fragmento.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/fragment_menu_fragmento.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_icono_app_redondo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/icono_app_redondo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-hdpi_logo_foreground.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-hdpi/logo_foreground.png"
+    },
+    {
+        "merged": "com.example.dindon.app-merged_res-26:/xml_network_security_config.xml.flat",
+        "source": "com.example.dindon.app-main-28:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_espana.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/espana.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-mdpi_logo_foreground.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-mdpi/logo_foreground.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_don.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/don.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_redondeado.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/redondeado.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_flecha.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/flecha.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_box_bg.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/box_bg.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_log_button_bg.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/log_button_bg.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xhdpi_logo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_cat.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/cat.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_item_card.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/item_card.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_activity_login.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btnchatselected.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btnchatselected.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btndiscover.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btndiscover.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_fragment_discover.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/fragment_discover.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_gradation_black.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/gradation_black.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_message_bg_receiver.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/message_bg_receiver.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_circle_bg.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/circle_bg.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_frase_up2.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/frase_up2.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_instagram_icon.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/instagram_icon.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_fragment_mapa.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/fragment_mapa.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xhdpi_logo_foreground.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xhdpi/logo_foreground.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_flechaabajo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/flechaabajo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-anydpi-v26_logo_round.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-anydpi-v26/logo_round.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btnmapaselected.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btnmapaselected.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_twitter_icon.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/twitter_icon.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-hdpi_logo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/mipmap-xxxhdpi_logo.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/mipmap-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_pisos_cardview.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/pisos_cardview.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btnchat.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btnchat.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btn_don.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btn_don.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/anim_slide_out_up.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_building_instance.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/building_instance.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_btndiscoverselected.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/btndiscoverselected.png"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_dialog_opinion.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/dialog_opinion.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_sender_message_item.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/sender_message_item.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_activity_chat.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/layout_fragment_discover1.xml.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/layout/fragment_discover1.xml"
+    },
+    {
+        "merged": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-merged_res-26:/drawable_campana.png.flat",
+        "source": "/Users/hugo/.gradle/daemon/7.4/com.example.dindon.app-main-28:/drawable/campana.png"
+    }
+]

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Pisos.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">DinDonBack</a> &gt; <a href="index.source.html" class="el_package">com.example.dindonback.DTOs</a> &gt; <span class="el_source">Pisos.java</span></div><h1>Pisos.java</h1><pre class="source lang-java linenums">package com.example.dindonback.DTOs;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Document(collection = &quot;pisos&quot;)
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class Pisos {
+    @Id
+    private String id;
+    private String nombre;
+    private String descripcion;
+    private String propietario;
+    private Double precio;
+    private Integer habitaciones;
+    private Integer banos;
+    private String direccion;
+    private Double latitud;
+    private Double longitud;
+    @Field(&quot;servicios_disponibles&quot;)
+    private List&lt;String&gt; serviciosDisponibles;
+    @Field(&quot;images&quot;)
+    private ArrayList&lt;ImageMetadata&gt; images;
+
+    public List&lt;ImageMetadata&gt; getImages() {
+<span class="fc" id="L31">        return images;</span>
+    }
+
+    public void setImages(List&lt;ImageMetadata&gt; images) {
+<span class="fc" id="L35">        this.images = (ArrayList&lt;ImageMetadata&gt;) images;</span>
+<span class="fc" id="L36">    }</span>
+
+<span class="fc" id="L38">    public Pisos() {</span>
+<span class="fc" id="L39">        this.images = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L40">    }</span>
+
+
+
+    public String getid() {
+<span class="fc" id="L45">        return id;</span>
+    }
+
+    public void setid(String id) {
+<span class="fc" id="L49">        this.id = id;</span>
+<span class="fc" id="L50">    }</span>
+
+    public String getNombre() {
+<span class="fc" id="L53">        return nombre;</span>
+    }
+
+    public void setNombre(String nombre) {
+<span class="fc" id="L57">        this.nombre = nombre;</span>
+<span class="fc" id="L58">    }</span>
+
+    public String getDescripcion() {
+<span class="fc" id="L61">        return descripcion;</span>
+    }
+
+    public void setDescripcion(String descripcion) {
+<span class="fc" id="L65">        this.descripcion = descripcion;</span>
+<span class="fc" id="L66">    }</span>
+
+    public String getPropietario() {
+<span class="fc" id="L69">        return propietario;</span>
+    }
+
+    public void setPropietario(String propietario) {
+<span class="fc" id="L73">        this.propietario = propietario;</span>
+<span class="fc" id="L74">    }</span>
+
+    public Double getPrecio() {
+<span class="fc" id="L77">        return precio;</span>
+    }
+
+    public void setPrecio(Double precio) {
+<span class="fc" id="L81">        this.precio = precio;</span>
+<span class="fc" id="L82">    }</span>
+
+    public Integer getHabitaciones() {
+<span class="fc" id="L85">        return habitaciones;</span>
+    }
+
+    public void setHabitaciones(Integer habitaciones) {
+<span class="fc" id="L89">        this.habitaciones = habitaciones;</span>
+<span class="fc" id="L90">    }</span>
+
+    public Integer getBanos() {
+<span class="fc" id="L93">        return banos;</span>
+    }
+
+    public void setBanos(Integer banos) {
+<span class="fc" id="L97">        this.banos = banos;</span>
+<span class="fc" id="L98">    }</span>
+
+    public String getDireccion() {
+<span class="fc" id="L101">        return direccion;</span>
+    }
+
+    public void setDireccion(String direccion) {
+<span class="fc" id="L105">        this.direccion = direccion;</span>
+<span class="fc" id="L106">    }</span>
+
+    public Double getLatitud() {
+<span class="fc" id="L109">        return latitud;</span>
+    }
+
+    public void setLatitud(Double latitud) {
+<span class="fc" id="L113">        this.latitud = latitud;</span>
+<span class="fc" id="L114">    }</span>
+
+    public Double getLongitud() {
+<span class="fc" id="L117">        return longitud;</span>
+    }
+
+    public void setLongitud(Double longitud) {
+<span class="fc" id="L121">        this.longitud = longitud;</span>
+<span class="fc" id="L122">    }</span>
+
+    public List&lt;String&gt; getServiciosDisponibles() {
+<span class="fc" id="L125">        return serviciosDisponibles;</span>
+    }
+
+    public void setServiciosDisponibles(List&lt;String&gt; serviciosDisponibles) {
+<span class="fc" id="L129">        this.serviciosDisponibles = serviciosDisponibles;</span>
+<span class="fc" id="L130">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

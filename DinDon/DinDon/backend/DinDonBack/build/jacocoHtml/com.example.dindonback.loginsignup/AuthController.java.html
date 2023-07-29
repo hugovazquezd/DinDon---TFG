@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AuthController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">DinDonBack</a> &gt; <a href="index.source.html" class="el_package">com.example.dindonback.loginsignup</a> &gt; <span class="el_source">AuthController.java</span></div><h1>AuthController.java</h1><pre class="source lang-java linenums">package com.example.dindonback.loginsignup;
+
+import com.example.dindonback.DTOs.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.web.bind.annotation.*;
+import com.example.dindonback.bbdd.UserRepository;
+
+import javax.validation.Valid;
+
+@RestController
+@RequestMapping(&quot;/api/auth&quot;)
+<span class="fc" id="L15">public class AuthController {</span>
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private JwtTokenProvider jwtTokenProvider;
+
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+
+
+    @PostMapping(&quot;/login&quot;)
+    public ResponseEntity&lt;LoginResponse&gt; authenticateUser(@RequestBody LoginRequest loginRequest) {
+<span class="fc" id="L29">        User user = userRepository.findByEmail(loginRequest.getEmail());</span>
+
+<span class="fc bfc" id="L31" title="All 4 branches covered.">        if (user != null &amp;&amp; bCryptPasswordEncoder.matches(loginRequest.getPassword(), user.getPassword())) {</span>
+<span class="fc" id="L32">            String jwtToken = jwtTokenProvider.generateToken(user.getEmail());</span>
+<span class="fc" id="L33">            return ResponseEntity.ok(new LoginResponse(jwtToken, &quot;Login successful&quot;, user.getEmail()));</span>
+        } else {
+<span class="fc" id="L35">            return ResponseEntity.status(401).body(new LoginResponse(null, &quot;Invalid email or password&quot;, null));</span>
+        }
+    }
+
+    @PostMapping(&quot;/signup&quot;)
+    public ResponseEntity&lt;MessageResponse&gt; registerUser(@Valid @RequestBody SignUpRequest signUpRequest) {
+<span class="pc bpc" id="L41" title="1 of 2 branches missed.">        if (Boolean.TRUE.equals(userRepository.existsByEmail(signUpRequest.getEmail()))) {</span>
+<span class="nc" id="L42">            return ResponseEntity</span>
+<span class="nc" id="L43">                    .badRequest()</span>
+<span class="nc" id="L44">                    .body(new MessageResponse(&quot;Error: Email is already in use!&quot;));</span>
+        }
+
+
+<span class="fc" id="L48">        User user = new User(signUpRequest.getEmail(),</span>
+<span class="fc" id="L49">                bCryptPasswordEncoder.encode(signUpRequest.getPassword()));</span>
+<span class="fc" id="L50">        user.setTipoAcceso(signUpRequest.getTipoUsuario());</span>
+<span class="fc" id="L51">        user.setNombre(signUpRequest.getName());</span>
+<span class="fc" id="L52">        userRepository.save(user);</span>
+
+<span class="fc" id="L54">        return ResponseEntity.ok(new MessageResponse(&quot;User registered successfully!&quot;));</span>
+    }
+
+    @PutMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;String&gt; updateUser(@PathVariable String id, @RequestBody User updatedUser) {
+<span class="fc" id="L59">        User existingUser = userRepository.findById(id).orElse(null);</span>
+<span class="pc bpc" id="L60" title="1 of 2 branches missed.">        if (existingUser == null) {</span>
+<span class="nc" id="L61">            return new ResponseEntity&lt;&gt;(&quot;Usuario no encontrado&quot;, HttpStatus.NOT_FOUND);</span>
+        }
+
+        // Actualizar los campos de nombre y correo
+<span class="fc" id="L65">        existingUser.setNombre(updatedUser.getNombre());</span>
+<span class="fc" id="L66">        existingUser.setEmail(updatedUser.getEmail());</span>
+
+        // Actualizar la contraseña solo si se proporciona una nueva contraseña y es distinta a la actual
+<span class="pc bpc" id="L69" title="2 of 4 branches missed.">        if (updatedUser.getPassword() != null &amp;&amp; !updatedUser.getPassword().isEmpty()</span>
+<span class="pc bpc" id="L70" title="1 of 2 branches missed.">                &amp;&amp; !bCryptPasswordEncoder.matches(updatedUser.getPassword(), existingUser.getPassword())) {</span>
+<span class="fc" id="L71">            String hashedPassword = bCryptPasswordEncoder.encode(updatedUser.getPassword());</span>
+<span class="fc" id="L72">            existingUser.setPassword(hashedPassword);</span>
+        }
+        // Guardar los cambios en la base de datos
+<span class="fc" id="L75">        userRepository.save(existingUser);</span>
+
+<span class="fc" id="L77">        return new ResponseEntity&lt;&gt;(&quot;Usuario actualizado correctamente&quot;, HttpStatus.OK);</span>
+    }
+
+    @PutMapping(&quot;/B/{id}&quot;)
+    public ResponseEntity&lt;String&gt; updateUserB(@PathVariable String id, @RequestBody User updatedUser) {
+<span class="fc" id="L82">        User existingUser = userRepository.findById(id).orElse(null);</span>
+<span class="pc bpc" id="L83" title="1 of 2 branches missed.">        if (existingUser == null) {</span>
+<span class="nc" id="L84">            return new ResponseEntity&lt;&gt;(&quot;Usuario no encontrado&quot;, HttpStatus.NOT_FOUND);</span>
+        }
+
+<span class="fc" id="L87">        existingUser.setFriendsRequests(updatedUser.getFriendsRequests());</span>
+<span class="fc" id="L88">        existingUser.setFriends(updatedUser.getFriends());</span>
+
+        // Guardar los cambios en la base de datos
+<span class="fc" id="L91">        userRepository.save(existingUser);</span>
+
+<span class="fc" id="L93">        return new ResponseEntity&lt;&gt;(&quot;Usuario actualizado correctamente&quot;, HttpStatus.OK);</span>
+    }
+
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

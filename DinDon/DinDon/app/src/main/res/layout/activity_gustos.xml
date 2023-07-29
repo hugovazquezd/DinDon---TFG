@@ -1,0 +1,90 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorA"
+            app:title="@string/misPreferencias"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/minimo"
+        android:layout_marginTop="@dimen/minimo"
+        android:text="@string/seleccionadas"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/appbar" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginStart="@dimen/minimo"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/minimo"
+        android:background="@drawable/message_bg_receiver"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/minimo"
+        android:paddingTop="@dimen/minimo"
+        android:paddingEnd="@dimen/minimo"
+        android:paddingBottom="@dimen/minimo"
+        app:chipSpacing="6dp"
+        app:layout_constraintTop_toBottomOf="@+id/titulo1" />
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/minimo"
+        android:layout_marginTop="@dimen/minimo"
+        android:text="@string/disponibles"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroupGeneral" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupSeleccionado"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginStart="@dimen/minimo"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/minimo"
+        android:background="@drawable/message_bg_sender"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/minimo"
+        android:paddingTop="@dimen/minimo"
+        android:paddingEnd="@dimen/minimo"
+        android:paddingBottom="@dimen/minimo"
+        app:chipSpacing="6dp"
+        app:layout_constraintTop_toBottomOf="@+id/titulo2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/minimo"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroupSeleccionado">
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:backgroundTint="@color/colorB"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

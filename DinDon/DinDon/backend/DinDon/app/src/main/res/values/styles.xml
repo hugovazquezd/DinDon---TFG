@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- styles.xml -->
+    <style name="botones">
+        <item name="android:layout_width">@dimen/tamano_iconos</item>
+        <item name="android:layout_height">@dimen/tamano_iconos</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="MenuButton">
+        <item name="android:layout_width">@dimen/menu_button_size</item>
+        <item name="android:layout_height">@dimen/menu_button_size</item>
+        <item name="android:layout_margin">22dp</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+
+    <style name="separacionBotones">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <dimen name="tamano_iconos">@dimen/largo</dimen>
+</resources>

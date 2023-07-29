@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.dindon.app-mergeDebugResources-24:/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/hugo/.gradle/caches/transforms-3/a3858696d564d45af7268a0a610872e8/transformed/appcompat-1.2.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,725,829",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,824,940"
+                    }
+                },
+                {
+                    "source": "/Users/hugo/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "16,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "945,1067",
+                        "endColumns": "121,133",
+                        "endOffsets": "1062,1196"
+                    }
+                },
+                {
+                    "source": "/Users/hugo/AndroidStudioProjects/DinDon/app/src/main/res/values-large/dimens.xml",
+                    "from": {
+                        "startLines": "4,5,3,2,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "130,168,93,55,207",
+                        "endColumns": "37,38,36,37,40",
+                        "endOffsets": "163,202,125,88,243"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "532,570,609,646,684",
+                        "endColumns": "37,38,36,37,40",
+                        "endOffsets": "565,604,641,679,720"
+                    }
+                }
+            ]
+        }
+    ]
+}

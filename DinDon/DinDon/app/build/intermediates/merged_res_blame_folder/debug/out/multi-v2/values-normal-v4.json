@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.dindon.app-mergeDebugResources-24:/values-normal-v4/values-normal-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/hugo/AndroidStudioProjects/DinDon/app/src/main/res/values-normal/dimens.xml",
+                    "from": {
+                        "startLines": "4,5,3,7,2,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "130,167,93,245,55,206",
+                        "endColumns": "36,38,36,47,37,38",
+                        "endOffsets": "162,201,125,288,88,240"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,92,131,168,216,254",
+                        "endColumns": "36,38,36,47,37,38",
+                        "endOffsets": "87,126,163,211,249,288"
+                    }
+                }
+            ]
+        }
+    ]
+}

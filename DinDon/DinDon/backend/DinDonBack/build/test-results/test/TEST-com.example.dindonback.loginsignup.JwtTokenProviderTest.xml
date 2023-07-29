@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dindonback.loginsignup.JwtTokenProviderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-26T16:14:01" hostname="MacBook-Air-de-Hugo.local" time="0.069">
+  <properties/>
+  <testcase name="testGetEmailFromToken()" classname="com.example.dindonback.loginsignup.JwtTokenProviderTest" time="0.054"/>
+  <testcase name="testResolveTokenNoBearer()" classname="com.example.dindonback.loginsignup.JwtTokenProviderTest" time="0.002"/>
+  <testcase name="testResolveToken()" classname="com.example.dindonback.loginsignup.JwtTokenProviderTest" time="0.004"/>
+  <testcase name="testGenerateAndValidateToken()" classname="com.example.dindonback.loginsignup.JwtTokenProviderTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

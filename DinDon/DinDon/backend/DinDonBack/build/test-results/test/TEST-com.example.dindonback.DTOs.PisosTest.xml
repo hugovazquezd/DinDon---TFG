@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dindonback.DTOs.PisosTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2023-06-26T16:13:59" hostname="MacBook-Air-de-Hugo.local" time="0.067">
+  <properties/>
+  <testcase name="testSetLatitud()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testGetPropietario()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testGetBanos()" classname="com.example.dindonback.DTOs.PisosTest" time="0.002"/>
+  <testcase name="testGetid()" classname="com.example.dindonback.DTOs.PisosTest" time="0.002"/>
+  <testcase name="testSetid()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testSetDescripcion()" classname="com.example.dindonback.DTOs.PisosTest" time="0.0"/>
+  <testcase name="testSetLongitud()" classname="com.example.dindonback.DTOs.PisosTest" time="0.0"/>
+  <testcase name="testGetLongitud()" classname="com.example.dindonback.DTOs.PisosTest" time="0.0"/>
+  <testcase name="testGetServiciosDisponibles()" classname="com.example.dindonback.DTOs.PisosTest" time="0.0"/>
+  <testcase name="testGetHabitaciones()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testGetDireccion()" classname="com.example.dindonback.DTOs.PisosTest" time="0.008"/>
+  <testcase name="testGetLatitud()" classname="com.example.dindonback.DTOs.PisosTest" time="0.002"/>
+  <testcase name="testGetDescripcion()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testSetPropietario()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testSetHabitaciones()" classname="com.example.dindonback.DTOs.PisosTest" time="0.0"/>
+  <testcase name="testSetImages()" classname="com.example.dindonback.DTOs.PisosTest" time="0.003"/>
+  <testcase name="testSetNombre()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testSetPrecio()" classname="com.example.dindonback.DTOs.PisosTest" time="0.003"/>
+  <testcase name="testGetNombre()" classname="com.example.dindonback.DTOs.PisosTest" time="0.003"/>
+  <testcase name="testGetPrecio()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <testcase name="testSetServiciosDisponibles()" classname="com.example.dindonback.DTOs.PisosTest" time="0.004"/>
+  <testcase name="testSetDireccion()" classname="com.example.dindonback.DTOs.PisosTest" time="0.003"/>
+  <testcase name="testConstructor()" classname="com.example.dindonback.DTOs.PisosTest" time="0.002"/>
+  <testcase name="testSetBanos()" classname="com.example.dindonback.DTOs.PisosTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

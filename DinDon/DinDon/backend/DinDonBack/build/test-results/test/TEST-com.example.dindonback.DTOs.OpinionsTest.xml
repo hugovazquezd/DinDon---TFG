@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dindonback.DTOs.OpinionsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-06-26T16:13:59" hostname="MacBook-Air-de-Hugo.local" time="0.022">
+  <properties/>
+  <testcase name="testGetIdusuario()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.001"/>
+  <testcase name="testGetValoracion()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.002"/>
+  <testcase name="testGetOpinion()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.001"/>
+  <testcase name="testSetValoracion()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.001"/>
+  <testcase name="testSetIdusuario()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.001"/>
+  <testcase name="testSetIdpiso()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.002"/>
+  <testcase name="testSetOpinion()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.001"/>
+  <testcase name="testGetIdpiso()" classname="com.example.dindonback.DTOs.OpinionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

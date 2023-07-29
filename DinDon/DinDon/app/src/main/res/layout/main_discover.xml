@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorA"
+        app:layout_constraintTop_toBottomOf="@id/arriba" />
+
+    <LinearLayout
+        android:id="@+id/arriba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/frase"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/frase_up">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/notificacion"
+            android:layout_width="10dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="@dimen/minimo"
+            android:layout_weight="1"
+            android:src="@drawable/campana">
+
+        </ImageView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom|start"
+        android:background="@color/colorA"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/flecha"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/flechaabajo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/don"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/btn_don" />
+
+            <ImageView
+                android:id="@+id/din"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/minimo"
+                android:src="@drawable/btn_din" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorA"
+        app:layout_constraintTop_toBottomOf="@id/b" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/b"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/galeria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/minimo">
+
+                <TextView
+                    android:id="@+id/gallery_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/minimo"
+                    android:text="@string/galery"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_below="@id/gallery_title"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/message_bg_receiver" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/galeria">
+
+                <TextView
+                    android:id="@+id/house_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/minimo"
+                    android:text="titulo del piso"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/house_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:justificationMode="inter_word"
+                android:text="Lorem ipsum y todo eso para ver como queda poner este texto porque luego no va a parecer"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/titulo" />
+
+            <RelativeLayout
+                android:id="@+id/precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:background="@drawable/price"
+                android:padding="@dimen/minimo"
+                app:layout_constraintTop_toBottomOf="@+id/house_description">
+
+                <TextView
+                    android:id="@+id/precio_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/minimo"
+                    android:text="@string/precio"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/precio_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="@dimen/minimo"
+                    android:gravity="end"
+                    android:text="1254,88€"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/location_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/minimo"
+                android:layout_marginTop="14dp"
+                android:text="@string/ubicaci_n"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/precio" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/minimo"
+                android:layout_marginEnd="@dimen/minimo"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/location_title">
+
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/mapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/minimo"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/location_title"
+                tools:ignore="MissingConstraints">
+                <!-- Mapa -->
+                <org.osmdroid.views.MapView
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/minimo"
+                    android:layout_marginEnd="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/mapa"
+                tools:ignore="MissingConstraints"></RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

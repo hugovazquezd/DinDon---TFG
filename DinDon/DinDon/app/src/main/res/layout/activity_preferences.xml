@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorA"
+            app:title="@string/ajustes"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/ajustes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:paddingStart="@dimen/minimo"
+        android:text="Ajustes de la cuenta"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/appbar"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/minimo"
+        android:layout_marginTop="@dimen/minimo"
+        android:layout_marginEnd="@dimen/minimo"
+        android:background="@drawable/message_bg_receiver"
+        app:layout_constraintTop_toBottomOf="@+id/ajustes">
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/minimo"
+            android:layout_marginEnd="@dimen/minimo"
+            android:hint="Correo Electrónico"
+            android:paddingTop="@dimen/minimo"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/minimo"
+            android:layout_marginEnd="@dimen/minimo"
+            android:hint="Nombre de usuario"
+            app:layout_constraintTop_toBottomOf="@+id/correo" />
+
+        <EditText
+            android:id="@+id/contra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/minimo"
+            android:layout_marginEnd="@dimen/minimo"
+            android:hint="Nueva Contraseña"
+            android:inputType="textPassword"
+            app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/minimo"
+            app:layout_constraintTop_toBottomOf="@+id/contra">
+
+            <Button
+                android:id="@+id/cambiar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="@dimen/minimo"
+                android:layout_marginTop="@dimen/minimo"
+                android:layout_marginEnd="@dimen/minimo"
+                android:backgroundTint="@color/colorA"
+                android:text="Cambiar datos"
+                tools:ignore="MissingConstraints" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/bloqueados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:paddingStart="@dimen/minimo"
+        android:text="Cuentas bloqueadas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/contenido"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:id="@+id/arriba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/bloqueados"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="@dimen/minimo"
+            android:layout_marginTop="@dimen/minimo"
+            android:layout_marginEnd="@dimen/minimo"
+            android:backgroundTint="@color/colorA"
+            android:text="Ver lista de usuarios bloqueados" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/DarBaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:paddingStart="@dimen/minimo"
+        android:text="Darse de baja"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/arriba"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:id="@+id/down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/DarBaja"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="@dimen/minimo"
+            android:layout_marginTop="@dimen/minimo"
+            android:layout_marginEnd="@dimen/minimo"
+            android:backgroundTint="@color/colorA"
+            android:text="Darme de baja de DinDon" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/descubrenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:paddingStart="@dimen/minimo"
+        android:text="Descúbrenos en"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/down"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/redes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/descubrenos"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/insta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/instagram_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Instagram"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/linkedin_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="LinkedIn"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/twitter_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Twitter"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:paddingStart="@dimen/minimo"
+        android:text="Compártelo con tus amigos!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/redes"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/compartir">
+
+        <Button
+            android:id="@+id/btnCompartir"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorB"
+            android:text="Compartir enlace de descarga" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

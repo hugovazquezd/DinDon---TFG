@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="8dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/gradation_black"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="@dimen/minimo">
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/left_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/item_image"
+            android:layout_alignTop="@+id/item_image"
+            android:layout_alignEnd="@+id/item_image"
+            android:layout_alignBottom="@+id/item_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/don"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/item_image"
+            android:layout_alignTop="@+id/item_image"
+            android:layout_alignEnd="@+id/item_image"
+            android:layout_alignBottom="@+id/item_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/din" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

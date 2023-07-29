@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/card_stack_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/medio"
+        android:layout_marginTop="@dimen/medio"
+        android:layout_marginEnd="@dimen/medio"
+        android:layout_marginBottom="@dimen/medio" />
+
+</RelativeLayout>
+

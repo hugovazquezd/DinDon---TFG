@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JwtTokenProvider.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">DinDonBack</a> &gt; <a href="index.source.html" class="el_package">com.example.dindonback.loginsignup</a> &gt; <span class="el_source">JwtTokenProvider.java</span></div><h1>JwtTokenProvider.java</h1><pre class="source lang-java linenums">package com.example.dindonback.loginsignup;
+
+import io.jsonwebtoken.*;
+import io.jsonwebtoken.security.Keys;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import javax.crypto.SecretKey;
+import javax.servlet.http.HttpServletRequest;
+import java.util.Date;
+
+@Component
+<span class="fc" id="L13">public class JwtTokenProvider {</span>
+
+<span class="fc" id="L15">    private final SecretKey jwtSecret = Keys.secretKeyFor(SignatureAlgorithm.HS512);</span>
+
+    @Value(&quot;${app.jwtExpirationMs}&quot;)
+    private int jwtExpirationMs;
+
+    public String generateToken(String email) {
+<span class="fc" id="L21">        Date now = new Date();</span>
+<span class="fc" id="L22">        Date expiryDate = new Date(now.getTime() + jwtExpirationMs);</span>
+
+<span class="fc" id="L24">        return Jwts.builder()</span>
+<span class="fc" id="L25">                .setSubject(email)</span>
+<span class="fc" id="L26">                .setIssuedAt(now)</span>
+<span class="fc" id="L27">                .setExpiration(expiryDate)</span>
+<span class="fc" id="L28">                .signWith(SignatureAlgorithm.HS512, jwtSecret)</span>
+<span class="fc" id="L29">                .compact();</span>
+    }
+
+    public String getEmailFromToken(String token) {
+<span class="fc" id="L33">        Claims claims = Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(token).getBody();</span>
+<span class="fc" id="L34">        return claims.getSubject();</span>
+    }
+
+    public boolean validateToken(String authToken) {
+        try {
+<span class="fc" id="L39">            Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(authToken);</span>
+<span class="fc" id="L40">            return true;</span>
+<span class="nc" id="L41">        } catch (MalformedJwtException | UnsupportedJwtException | IllegalArgumentException | ExpiredJwtException ex) {</span>
+            // Log the exception
+        }
+<span class="nc" id="L44">        return false;</span>
+    }
+
+    public String resolveToken(HttpServletRequest request) {
+<span class="fc" id="L48">        String bearerToken = request.getHeader(&quot;Authorization&quot;);</span>
+<span class="pc bpc" id="L49" title="1 of 4 branches missed.">        if (bearerToken != null &amp;&amp; bearerToken.startsWith(&quot;Bearer &quot;)) {</span>
+<span class="fc" id="L50">            return bearerToken.substring(7);</span>
+        }
+<span class="fc" id="L52">        return null;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

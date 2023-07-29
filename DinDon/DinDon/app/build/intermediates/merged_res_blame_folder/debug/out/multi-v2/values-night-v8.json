@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.dindon.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/hugo/AndroidStudioProjects/DinDon/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "452"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "975"
+                    }
+                },
+                {
+                    "source": "/Users/hugo/.gradle/caches/transforms-3/a3858696d564d45af7268a0a610872e8/transformed/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,980",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,1064"
+                    }
+                }
+            ]
+        }
+    ]
+}

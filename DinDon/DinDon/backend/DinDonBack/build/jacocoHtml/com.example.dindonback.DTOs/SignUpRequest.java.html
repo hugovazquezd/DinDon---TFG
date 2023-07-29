@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SignUpRequest.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">DinDonBack</a> &gt; <a href="index.source.html" class="el_package">com.example.dindonback.DTOs</a> &gt; <span class="el_source">SignUpRequest.java</span></div><h1>SignUpRequest.java</h1><pre class="source lang-java linenums">package com.example.dindonback.DTOs;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+public class SignUpRequest {
+    @NotBlank
+    @Size(min = 3, max = 50)
+    @Email
+    private String email;
+
+    @NotBlank
+    @Size(min = 4, max = 40)
+    private String password;
+
+    @NotBlank
+    @Size(min = 3, max = 50)
+    private String name;
+
+    @NotBlank
+    @Size(min = 7, max = 50)
+    private String tipoUsuario;
+
+
+<span class="fc" id="L26">    public SignUpRequest(String email, String password, String name, String tipoUsuario) {</span>
+<span class="fc" id="L27">        this.email = email;</span>
+<span class="fc" id="L28">        this.password = password;</span>
+<span class="fc" id="L29">        this.name = name;</span>
+<span class="fc" id="L30">        this.tipoUsuario = tipoUsuario;</span>
+<span class="fc" id="L31">    }</span>
+
+    public String getEmail() {
+<span class="fc" id="L34">        return email;</span>
+    }
+
+    public String getPassword() {
+<span class="fc" id="L38">        return password;</span>
+    }
+
+    public String getName() {
+<span class="fc" id="L42">        return name;</span>
+    }
+
+    public String getTipoUsuario() {
+<span class="fc" id="L46">        return tipoUsuario;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

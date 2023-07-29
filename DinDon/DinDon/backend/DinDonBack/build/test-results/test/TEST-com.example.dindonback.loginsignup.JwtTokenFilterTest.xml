@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dindonback.loginsignup.JwtTokenFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-26T16:14:01" hostname="MacBook-Air-de-Hugo.local" time="0.144">
+  <properties/>
+  <testcase name="testDoFilterWithNoToken()" classname="com.example.dindonback.loginsignup.JwtTokenFilterTest" time="0.135"/>
+  <testcase name="testDoFilterWithInvalidToken()" classname="com.example.dindonback.loginsignup.JwtTokenFilterTest" time="0.003"/>
+  <testcase name="testDoFilterWithValidToken()" classname="com.example.dindonback.loginsignup.JwtTokenFilterTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

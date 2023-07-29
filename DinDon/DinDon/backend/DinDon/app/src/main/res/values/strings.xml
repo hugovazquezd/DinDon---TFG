@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DinDon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="idioma">IDIOMA</string>
+    <string name="opinion">Danos tu opinión</string>
+    <string name="privacidad">Política de Privacidad</string>
+    <string name="otras">Otras Opciones</string>
+    <string name="mensajeRegistro">¿No tienes una cuenta? Regístrate</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="correo">Email</string>
+    <string name="mensajeIniciarSesion">¿Ya tienes una cuenta? Inicia Sesión</string>
+    <string name="registrarse">Registrar</string>
+    <string name="mensaje">Escribe un mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="ingles">Inglés</string>
+    <string name="gallego">Gallego</string>
+    <string name="catalan">Catalán</string>
+    <string name="español">Español</string>
+    <string name="idiomaSeleccion">Selecciona el idioma</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="score">Puntúa del 1 al 5:</string>
+    <string name="opinionText">Escribe tu opinión</string>
+    <string name="galery">Galería</string>
+    <string name="precio">Precio:</string>
+    <string name="ubicaci_n">Ubicación</string>
+    <string name="noFriends">No tienes amigos</string>
+    <string name="propiedades">MIS PROPIEDADES</string>
+    <string name="nuevaPropiedad">NUEVA PROPIEDAD</string>
+</resources>

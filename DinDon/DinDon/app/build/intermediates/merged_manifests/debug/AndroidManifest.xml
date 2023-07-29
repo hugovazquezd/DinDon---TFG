@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dindon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.DinDon"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.dindon.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dindon.Settings"
+            android:label="Ajustes" />
+        <activity
+            android:name="com.example.dindon.Preferencias"
+            android:label="Preferencias" />
+        <activity
+            android:name="com.example.dindon.RegisterActivity"
+            android:label="Registro" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.example.dindon.NewPisoActivity"
+            android:label="Nuevo Piso" />
+        <activity
+            android:name="com.example.dindon.Chat"
+            android:label="Chat" />
+        <activity
+            android:name="com.example.dindon.MainActivity1"
+            android:label="Arrendador" />
+        <activity
+            android:name="com.example.dindon.pisosSummary"
+            android:label="summary" />
+        <activity
+            android:name="com.example.dindon.fragments.MainDiscover"
+            android:label="Descubre"
+            android:parentActivityName="com.example.dindon.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.dindon.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.dindon.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.dindon.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

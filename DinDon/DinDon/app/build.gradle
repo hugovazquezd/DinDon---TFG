@@ -1,0 +1,74 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 33
+    packagingOptions {
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/notice.txt'
+    }
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+    defaultConfig {
+        applicationId "com.example.dindon"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    testOptions {
+        unitTests.all {
+            jacoco {
+                includeNoLocationClasses = true
+                excludes = ['jdk.internal.*']
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.fragment:fragment:1.3.6'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.yuyakaido.android:card-stack-view:2.3.4'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3'
+    implementation 'org.osmdroid:osmdroid-android:6.1.7'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.3'
+    implementation 'org.osmdroid:osmdroid-android:6.1.10'
+    implementation 'com.github.MKergall:osmbonuspack:6.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    testImplementation 'org.mockito:mockito-core:3.10.0'
+    androidTestImplementation 'androidx.fragment:fragment-testing:1.4.1'
+}

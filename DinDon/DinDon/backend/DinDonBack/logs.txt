@@ -1,0 +1,57 @@
+Starting a Gradle Daemon, 1 busy and 1 stopped Daemons could not be reused, use --status for details
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :bootRunMainClassName
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.5)
+
+2023-04-03 21:11:12.888  INFO 48397 --- [           main] c.e.dindonback.DinDonBackApplication     : Starting DinDonBackApplication using Java 17.0.6 on MacBook-Air-de-Hugo.local with PID 48397 (/Users/hugo/AndroidStudioProjects/DinDon/backend/DinDonBack/build/classes/java/main started by hugo in /Users/hugo/AndroidStudioProjects/DinDon/backend/DinDonBack)
+2023-04-03 21:11:12.892  INFO 48397 --- [           main] c.e.dindonback.DinDonBackApplication     : No active profile set, falling back to default profiles: default
+2023-04-03 21:11:13.799  INFO 48397 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-04-03 21:11:13.810  INFO 48397 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Reactive MongoDB repository interfaces.
+2023-04-03 21:11:13.816  INFO 48397 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-03 21:11:13.818  INFO 48397 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 MongoDB repository interfaces.
+2023-04-03 21:11:14.635  INFO 48397 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-03 21:11:14.644  INFO 48397 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03 21:11:14.644  INFO 48397 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-04-03 21:11:14.695  INFO 48397 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03 21:11:14.695  INFO 48397 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1652 ms
+2023-04-03 21:11:16.004  INFO 48397 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-03 21:11:16.056  INFO 48397 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:162}] to localhost:27017
+2023-04-03 21:11:16.056  INFO 48397 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:163}] to localhost:27017
+2023-04-03 21:11:16.056  INFO 48397 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18696333}
+2023-04-03 21:11:16.101  INFO 48397 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-03 21:11:16.116  INFO 48397 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:164}] to localhost:27017
+2023-04-03 21:11:16.117  INFO 48397 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:165}] to localhost:27017
+2023-04-03 21:11:16.117  INFO 48397 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6036291}
+2023-04-03 21:11:16.595  WARN 48397 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-04-03 21:11:16.609  INFO 48397 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03 21:11:16.626  INFO 48397 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-03 21:11:16.641 ERROR 48397 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+> Task :bootRun FAILED
+4 actionable tasks: 2 executed, 2 up-to-date

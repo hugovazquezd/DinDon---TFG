@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minimo">16dp</dimen>
+    <dimen name="medio">32dp</dimen>
+    <dimen name="largo">80dp</dimen>
+    <dimen name="maximo">300dp</dimen>
+    <dimen name="text_size">12</dimen>
+    <dimen name="menu_button_size">46dp</dimen>
+</resources>

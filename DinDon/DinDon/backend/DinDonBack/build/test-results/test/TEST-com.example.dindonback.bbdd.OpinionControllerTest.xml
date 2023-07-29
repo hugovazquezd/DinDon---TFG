@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dindonback.bbdd.OpinionControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-26T16:14:00" hostname="MacBook-Air-de-Hugo.local" time="0.17">
+  <properties/>
+  <testcase name="testCreateOpinion()" classname="com.example.dindonback.bbdd.OpinionControllerTest" time="0.17"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/idiomaSeleccion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="6dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/espana" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ing" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="7dp"
+                android:src="@drawable/galicia" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/cat" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/language_selection"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/spanish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/español"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingles"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/galician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gallego"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/catalan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/catalan"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/confirm_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/colorA"
+            android:gravity="center"
+            android:text="@string/aceptar"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

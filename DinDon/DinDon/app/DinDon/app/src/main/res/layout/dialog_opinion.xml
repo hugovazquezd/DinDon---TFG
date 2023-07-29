@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_opinion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titulo_opinion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/minimo"
+        android:gravity="start"
+        android:paddingStart="16dp"
+        android:text="@string/opinion"
+        android:textColor="@color/colorA"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/rating_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="238dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="4dp"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_opinion" />
+
+    <TextView
+        android:id="@+id/texto_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/score"
+        android:textColor="@color/colorA"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/rating_bar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rating_bar" />
+
+    <EditText
+        android:id="@+id/comentario_opinion"
+        android:layout_width="312dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/box_bg"
+        android:backgroundTint="@color/colorB"
+        android:gravity="start"
+        android:hint="@string/opinionText"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_rating" />
+
+    <Button
+        android:id="@+id/btn_enviar_opinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorA"
+        android:text="@string/enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comentario_opinion" />
+</androidx.constraintlayout.widget.ConstraintLayout>

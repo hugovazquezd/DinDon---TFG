@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Mapa"
+    android:layout_marginStart="@dimen/medio"
+    android:layout_marginTop="@dimen/medio"
+    android:layout_marginEnd="@dimen/medio"
+    android:layout_marginBottom="@dimen/medio">
+
+    <!-- Barra de búsqueda -->
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/box_bg"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="Buscar dirección"
+            android:inputType="text"
+            android:layoutDirection="rtl"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchLayout"
+        android:layout_marginTop="@dimen/minimo"
+        android:elevation="4dp"
+        android:orientation="vertical">
+        <!-- Mapa -->
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/minimo" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

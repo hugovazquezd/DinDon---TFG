@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dindonback.bbdd.UsersControllerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-06-26T16:14:01" hostname="MacBook-Air-de-Hugo.local" time="0.158">
+  <properties/>
+  <testcase name="getUserByMailTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.106"/>
+  <testcase name="editPreferencesTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.006"/>
+  <testcase name="uploadImageTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.021"/>
+  <testcase name="updateUserTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.006"/>
+  <testcase name="isArrendadorTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.003"/>
+  <testcase name="editPreferencesWhenUserNotFoundTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.001"/>
+  <testcase name="updateUserBTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.004"/>
+  <testcase name="getUserByIdTest()" classname="com.example.dindonback.bbdd.UsersControllerTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

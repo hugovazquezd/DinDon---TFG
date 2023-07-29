@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.2" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.2)" variant="fatal" version="7.2.2">
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;minimo&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;minimo&quot;>32dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-large/dimens.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;minimo&quot; in values-normal has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;minimo&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-normal/dimens.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;medio&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;medio&quot;>64dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-large/dimens.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;medio&quot; in values-normal has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;medio&quot;>32dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-normal/dimens.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;largo&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;largo&quot;>140dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-large/dimens.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;largo&quot; in values-normal has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;largo&quot;>80dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-normal/dimens.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;maximo&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;maximo&quot;>600dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-large/dimens.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;maximo&quot; in values-normal has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;maximo&quot;>300dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-normal/dimens.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;text_size&quot; in values-large has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;text_size&quot;>24dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-large/dimens.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;text_size&quot; in values-normal has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;text_size&quot;>12&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-normal/dimens.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The dimen &quot;menu_button_size&quot; in values-normal has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;dimen name=&quot;menu_button_size&quot;>46dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-normal/dimens.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignStart=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout-v26/item_card.xml"
+            line="82"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignStart=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_card.xml"
+            line="82"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignTop=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout-v26/item_card.xml"
+            line="83"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignTop=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_card.xml"
+            line="83"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignEnd=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout-v26/item_card.xml"
+            line="84"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignEnd=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_card.xml"
+            line="84"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignBottom=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout-v26/item_card.xml"
+            line="85"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/item_image` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_alignBottom=&quot;@+id/item_image&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_card.xml"
+            line="85"
+            column="13"/>
+    </issue>
+
+</issues>

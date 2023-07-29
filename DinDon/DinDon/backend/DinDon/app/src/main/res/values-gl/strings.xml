@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DinDon</string>
+    <string name="hello_blank_fragment">Ola fragmento en branco</string>
+    <string name="idioma">LINGUA</string>
+    <string name="opinion">Dános a túa opinión</string>
+    <string name="privacidad">Política de Privac.</string>
+    <string name="otras">Outras Opcións</string>
+    <string name="mensajeRegistro">Non tes unha conta? Rexístrate</string>
+    <string name="contraseña">Contrasinal</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="mensajeIniciarSesion">Xa tes unha conta? Inicia sesión</string>
+    <string name="registrarse">Rexistrarse</string>
+    <string name="mensaje">Escribe unha mensaxe</string>
+    <string name="enviar">Enviar</string>
+    <string name="ingles">Inglés</string>
+    <string name="gallego">Galego</string>
+    <string name="catalan">Catalán</string>
+    <string name="español">Español</string>
+    <string name="idiomaSeleccion">Selecciona a lingua</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="score">Puntúa do 1 ao 5:</string>
+    <string name="opinionText">Escribe a túa opinión</string>
+</resources>

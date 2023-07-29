@@ -1,0 +1,381 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hugo/.gradle/caches/transforms-3/229612c218d9fe79705dc19c7f400585/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/hugo/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/hugo/.gradle/caches/transforms-3/8e80b432e42a44b77e7e7c98700e1876/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hugo/.gradle/caches/transforms-3/a3858696d564d45af7268a0a610872e8/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/hugo/.gradle/caches/transforms-3/298b882b14242236d5366f78b7d72375/transformed/jetified-glide-4.15.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/hugo/.gradle/caches/transforms-3/4a9395b98a41774121f6ab6389bc64b3/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.yuyakaido.android:card-stack-view:2.3.4] /Users/hugo/.gradle/caches/transforms-3/b61de76862432f77458bc563215b6aa7/transformed/jetified-card-stack-view-2.3.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/hugo/.gradle/caches/transforms-3/a4820ef3f3c8da4249fb592cb2c3f570/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.2.1] /Users/hugo/.gradle/caches/transforms-3/a8d4759f0ad5c3d27bbd8741bb9f816b/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.MKergall:osmbonuspack:6.9.0] /Users/hugo/.gradle/caches/transforms-3/e6a688826bd6fa5148a9121599da1a87/transformed/jetified-osmbonuspack-6.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/hugo/.gradle/caches/transforms-3/569340b523381c59ae53ce748097398a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hugo/.gradle/caches/transforms-3/c31eec4d7eece02ee0c38f2cb0644287/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hugo/.gradle/caches/transforms-3/1282e2a4b56306d4b655af35a574b455/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hugo/.gradle/caches/transforms-3/eb12f00a73b2d9ebc9dfe125af509ed1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hugo/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f9294253ceb16a4605b1f28d26267b69/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hugo/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hugo/.gradle/caches/transforms-3/c51b904150fd2875fe24ebca6a6abd7f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b1a0fbccb693c220516522ab839607e9/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/hugo/.gradle/caches/transforms-3/882e9924b642d9d981c05803b21e0566/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/a33599820413b39306533ebcc3efaada/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hugo/.gradle/caches/transforms-3/5494538d61a363f20d03ecac1b94dc16/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/hugo/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hugo/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/hugo/.gradle/caches/transforms-3/3fda79152d2c221f031c2a67839b48bd/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/hugo/.gradle/caches/transforms-3/f557084dc67a47ec19b88ea9dd5bd78f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/hugo/.gradle/caches/transforms-3/07031b77b0aa216b359c638a752652e4/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/hugo/.gradle/caches/transforms-3/518178b2419a67aecc68779127dea742/transformed/jetified-gifdecoder-4.15.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/hugo/.gradle/caches/transforms-3/e42406db7951da634ec7cd337627902a/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1fac657088262e01baed01fbff1f9e4c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hugo/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/hugo/.gradle/caches/transforms-3/fab91f2a09ab99150b828e3da0c20b68/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hugo/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/hugo/.gradle/caches/transforms-3/11d2d4457fb0da6aec09850e84a11749/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hugo/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hugo/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hugo/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hugo/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hugo/.gradle/caches/transforms-3/9d769e6f8c1cf14afd24d8935e171f47/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:8:5-85
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:8:22-82
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:13:22-78
+application
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:16:5-77:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hugo/.gradle/caches/transforms-3/229612c218d9fe79705dc19c7f400585/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hugo/.gradle/caches/transforms-3/229612c218d9fe79705dc19c7f400585/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/hugo/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/hugo/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/hugo/.gradle/caches/transforms-3/298b882b14242236d5366f78b7d72375/transformed/jetified-glide-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/hugo/.gradle/caches/transforms-3/298b882b14242236d5366f78b7d72375/transformed/jetified-glide-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.MKergall:osmbonuspack:6.9.0] /Users/hugo/.gradle/caches/transforms-3/e6a688826bd6fa5148a9121599da1a87/transformed/jetified-osmbonuspack-6.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.MKergall:osmbonuspack:6.9.0] /Users/hugo/.gradle/caches/transforms-3/e6a688826bd6fa5148a9121599da1a87/transformed/jetified-osmbonuspack-6.9.0/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.7.0] /Users/hugo/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/hugo/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hugo/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hugo/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/hugo/.gradle/caches/transforms-3/518178b2419a67aecc68779127dea742/transformed/jetified-gifdecoder-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/hugo/.gradle/caches/transforms-3/518178b2419a67aecc68779127dea742/transformed/jetified-gifdecoder-4.15.1/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/hugo/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:22:9-41
+	tools:targetApi
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:26:9-35
+	android:icon
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:19:9-36
+	android:allowBackup
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:24:9-44
+	android:networkSecurityConfig
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:21:9-69
+	android:enableOnBackInvokedCallback
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:18:9-51
+	android:usesCleartextTraffic
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:25:9-44
+activity#com.example.dindon.LoginActivity
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:28:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:32:27-74
+activity#com.example.dindon.Settings
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:35:9-37:39
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:36:13-37
+activity#com.example.dindon.Preferencias
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:39:9-41:44
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:41:13-41
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:40:13-41
+activity#com.example.dindon.RegisterActivity
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:42:9-44:40
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:43:13-45
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:46:9-48:59
+	android:theme
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:47:13-76
+activity#com.example.dindon.NewPisoActivity
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:49:9-51:42
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:51:13-39
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:50:13-44
+activity#com.example.dindon.Chat
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:52:9-54:36
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:54:13-33
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:53:13-33
+activity#com.example.dindon.MainActivity1
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:55:9-57:42
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:57:13-39
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:56:13-42
+activity#com.example.dindon.pisosSummary
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:58:9-60:39
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:59:13-41
+activity#com.example.dindon.fragments.MainDiscover
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:61:9-68:20
+	android:parentActivityName
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:64:13-55
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:62:13-51
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:65:13-67:49
+	android:value
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:67:17-46
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:66:17-63
+activity#com.example.dindon.MainActivity
+ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:69:9-76:20
+	android:parentActivityName
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:72:13-56
+	android:label
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:71:13-45
+	android:name
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml:70:13-41
+uses-sdk
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hugo/.gradle/caches/transforms-3/229612c218d9fe79705dc19c7f400585/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hugo/.gradle/caches/transforms-3/229612c218d9fe79705dc19c7f400585/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/hugo/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/hugo/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/hugo/.gradle/caches/transforms-3/8e80b432e42a44b77e7e7c98700e1876/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/hugo/.gradle/caches/transforms-3/8e80b432e42a44b77e7e7c98700e1876/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hugo/.gradle/caches/transforms-3/a3858696d564d45af7268a0a610872e8/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hugo/.gradle/caches/transforms-3/a3858696d564d45af7268a0a610872e8/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/hugo/.gradle/caches/transforms-3/298b882b14242236d5366f78b7d72375/transformed/jetified-glide-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/hugo/.gradle/caches/transforms-3/298b882b14242236d5366f78b7d72375/transformed/jetified-glide-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/hugo/.gradle/caches/transforms-3/4a9395b98a41774121f6ab6389bc64b3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/hugo/.gradle/caches/transforms-3/4a9395b98a41774121f6ab6389bc64b3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.yuyakaido.android:card-stack-view:2.3.4] /Users/hugo/.gradle/caches/transforms-3/b61de76862432f77458bc563215b6aa7/transformed/jetified-card-stack-view-2.3.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.yuyakaido.android:card-stack-view:2.3.4] /Users/hugo/.gradle/caches/transforms-3/b61de76862432f77458bc563215b6aa7/transformed/jetified-card-stack-view-2.3.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/hugo/.gradle/caches/transforms-3/a4820ef3f3c8da4249fb592cb2c3f570/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/hugo/.gradle/caches/transforms-3/a4820ef3f3c8da4249fb592cb2c3f570/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.2.1] /Users/hugo/.gradle/caches/transforms-3/a8d4759f0ad5c3d27bbd8741bb9f816b/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /Users/hugo/.gradle/caches/transforms-3/a8d4759f0ad5c3d27bbd8741bb9f816b/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.github.MKergall:osmbonuspack:6.9.0] /Users/hugo/.gradle/caches/transforms-3/e6a688826bd6fa5148a9121599da1a87/transformed/jetified-osmbonuspack-6.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MKergall:osmbonuspack:6.9.0] /Users/hugo/.gradle/caches/transforms-3/e6a688826bd6fa5148a9121599da1a87/transformed/jetified-osmbonuspack-6.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/hugo/.gradle/caches/transforms-3/569340b523381c59ae53ce748097398a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/hugo/.gradle/caches/transforms-3/569340b523381c59ae53ce748097398a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hugo/.gradle/caches/transforms-3/c31eec4d7eece02ee0c38f2cb0644287/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hugo/.gradle/caches/transforms-3/c31eec4d7eece02ee0c38f2cb0644287/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hugo/.gradle/caches/transforms-3/1282e2a4b56306d4b655af35a574b455/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hugo/.gradle/caches/transforms-3/1282e2a4b56306d4b655af35a574b455/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hugo/.gradle/caches/transforms-3/eb12f00a73b2d9ebc9dfe125af509ed1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hugo/.gradle/caches/transforms-3/eb12f00a73b2d9ebc9dfe125af509ed1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hugo/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hugo/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f9294253ceb16a4605b1f28d26267b69/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/f9294253ceb16a4605b1f28d26267b69/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hugo/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hugo/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hugo/.gradle/caches/transforms-3/c51b904150fd2875fe24ebca6a6abd7f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hugo/.gradle/caches/transforms-3/c51b904150fd2875fe24ebca6a6abd7f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b1a0fbccb693c220516522ab839607e9/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b1a0fbccb693c220516522ab839607e9/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/hugo/.gradle/caches/transforms-3/882e9924b642d9d981c05803b21e0566/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/hugo/.gradle/caches/transforms-3/882e9924b642d9d981c05803b21e0566/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/a33599820413b39306533ebcc3efaada/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hugo/.gradle/caches/transforms-3/a33599820413b39306533ebcc3efaada/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hugo/.gradle/caches/transforms-3/5494538d61a363f20d03ecac1b94dc16/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hugo/.gradle/caches/transforms-3/5494538d61a363f20d03ecac1b94dc16/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/hugo/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/hugo/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hugo/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hugo/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/hugo/.gradle/caches/transforms-3/3fda79152d2c221f031c2a67839b48bd/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/hugo/.gradle/caches/transforms-3/3fda79152d2c221f031c2a67839b48bd/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/hugo/.gradle/caches/transforms-3/f557084dc67a47ec19b88ea9dd5bd78f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/hugo/.gradle/caches/transforms-3/f557084dc67a47ec19b88ea9dd5bd78f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/hugo/.gradle/caches/transforms-3/07031b77b0aa216b359c638a752652e4/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/hugo/.gradle/caches/transforms-3/07031b77b0aa216b359c638a752652e4/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/hugo/.gradle/caches/transforms-3/518178b2419a67aecc68779127dea742/transformed/jetified-gifdecoder-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/hugo/.gradle/caches/transforms-3/518178b2419a67aecc68779127dea742/transformed/jetified-gifdecoder-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/hugo/.gradle/caches/transforms-3/e42406db7951da634ec7cd337627902a/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/hugo/.gradle/caches/transforms-3/e42406db7951da634ec7cd337627902a/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1fac657088262e01baed01fbff1f9e4c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hugo/.gradle/caches/transforms-3/1fac657088262e01baed01fbff1f9e4c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hugo/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hugo/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/hugo/.gradle/caches/transforms-3/fab91f2a09ab99150b828e3da0c20b68/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/hugo/.gradle/caches/transforms-3/fab91f2a09ab99150b828e3da0c20b68/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hugo/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hugo/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/hugo/.gradle/caches/transforms-3/11d2d4457fb0da6aec09850e84a11749/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/hugo/.gradle/caches/transforms-3/11d2d4457fb0da6aec09850e84a11749/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hugo/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hugo/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hugo/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hugo/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hugo/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hugo/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hugo/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hugo/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hugo/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hugo/.gradle/caches/transforms-3/9d769e6f8c1cf14afd24d8935e171f47/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hugo/.gradle/caches/transforms-3/9d769e6f8c1cf14afd24d8935e171f47/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hugo/AndroidStudioProjects/DinDon/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hugo/.gradle/caches/transforms-3/9de5b76013fcf7e076c1eade3de74074/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.13] /Users/hugo/.gradle/caches/transforms-3/e7ba42549fda355edda29e551f234472/transformed/jetified-osmdroid-android-6.1.13/AndroidManifest.xml:24:9-45
